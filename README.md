@@ -73,7 +73,8 @@ This documentation is written and maintained by **Stuti**, a _Technical Writer a
 
 Her work bridges **technical accuracy** and **strategic communication**, helping readers — from end users to developers — understand, adopt, and engage with complex tools effortlessly.
 
-**Connect with the Author:**\
+#### **Connect with the Author:**
+
 [💼 LinkedIn](https://linkedin.com/in/stuti-sanghvi)\
 [💌 Email](mailto:stutisanghvi7@gmail.in)\
 [🌐 Portfolio (via Notion)](https://www.notion.so/Stuti-Sanghvi-Content-Strategist-Technical-Writer-29cf34655bbd809589e7d360b8e98ed1)\
