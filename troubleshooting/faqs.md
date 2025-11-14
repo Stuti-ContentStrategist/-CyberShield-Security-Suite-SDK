@@ -6,9 +6,7 @@ metaLinks:
 
 # FAQs
 
-Find quick answers to common questions about setup, configuration, and usage.
-
-This section helps you troubleshoot frequent issues, clarify SDK behavior, and resolve errors without external assistance.
+Find quick answers to common questions about setup, configuration, and usage. This section helps you troubleshoot frequent issues, clarify SDK behavior, and resolve errors without external assistance.
 
 ***
 

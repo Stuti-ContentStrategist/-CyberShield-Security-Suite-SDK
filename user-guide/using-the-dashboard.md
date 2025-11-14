@@ -24,14 +24,8 @@ The CyberShield Dashboard provides a centralized view of your organization’s s
 
 ***
 
-> #### 💡 Tip
+> **💡 Tip:** Use filters (by date, severity, or user) to isolate relevant incidents faster.
 >
-> Use filters (by date, severity, or user) to isolate relevant incidents faster.
->
-> #### ⚠️ Note
->
-> Data retention for logs depends on your subscription tier. Free plans store logs for 30 days only.
-
-
+> **⚠️ Note:** Data retention for logs depends on your subscription tier. Free plans store logs for 30 days only.
 
 🎯 You’re now ready to navigate the CyberShield Dashboard with confidence — your command center for real-time protection and insights.

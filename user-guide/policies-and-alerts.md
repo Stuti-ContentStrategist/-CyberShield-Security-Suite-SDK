@@ -27,10 +27,4 @@ Policies and Alerts allow administrators to define how CyberShield detects, clas
 * Each alert contains metadata such as source IP, event type, and resolution status.
 * You can acknowledge, assign, or mute alerts from the dashboard directly.
 
-***
-
-#### 💡 Best Practice
-
-Review inactive or redundant policies quarterly to ensure relevance and prevent alert fatigue.
-
 🔔 You’ve learned how to fine-tune your alert settings and security policies — helping you stay focused on what truly matters.
