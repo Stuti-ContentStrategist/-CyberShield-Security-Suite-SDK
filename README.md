@@ -69,9 +69,9 @@ This SDK documentation is part of the **CyberShield Security Suite Documentation
 
 ### 🧾 About the Author
 
-Stuti Sanghvi is a technical writer and content strategist who builds clear, structured, and user-friendly documentation experiences. She excels at translating complex concepts into accessible content that empowers users, supports teams, and strengthens product understanding.&#x20;
+Stuti Sanghvi is a **technical writer and content strategist** who builds **clear, structured, and user-friendly** documentation experiences. She excels at translating complex concepts into accessible content that empowers users, supports teams, and strengthens product understanding.&#x20;
 
-Her work focuses on creating intuitive documentation systems that help users learn confidently and navigate with ease. She works extensively with SDK workflows, integration logic, and developer-focused content to support effective implementation.
+Her work focuses on creating **intuitive documentation systems** that help users learn confidently and navigate with ease. She works extensively with **SDK workflows, integration logic, and developer-focused content** to support effective implementation.
 
 #### **Connect with the Author:**
 
