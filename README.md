@@ -10,7 +10,7 @@ metaLinks:
 
 The **CyberShield Security Suite SDK** provides enterprise-grade detection, response, and API security for both cloud and on-prem environments.
 
-Built for **security engineers** and **platform developers**, it combines AI-driven threat detection, automated incident response, and secure data exchange into a single integration framework.
+Designed for security engineers and platform developers, it unifies AI-driven threat detection, automated incident response, and secure data exchange in one integration framework.
 
 ***
 
@@ -69,15 +69,15 @@ This SDK documentation is part of the **CyberShield Security Suite Documentation
 
 ### 🧾 About the Author
 
-This documentation is written and maintained by **Stuti**, a _Technical Writer and Content Strategist_ who specializes in creating structured, intuitive, and user-focused documentation for technology products.
+Stuti Sanghvi is a technical writer and content strategist who builds clear, structured, and user-friendly documentation experiences. She excels at translating complex concepts into accessible content that empowers users, supports teams, and strengthens product understanding.&#x20;
 
-Her work bridges **technical accuracy** and **strategic communication**, helping readers — from end users to developers — understand, adopt, and engage with complex tools effortlessly.
+Her work focuses on creating intuitive documentation systems that help users learn confidently and navigate with ease. She works extensively with API workflows and developer-focused content to improve product adoption.
 
 #### **Connect with the Author:**
 
-[💼 LinkedIn](https://linkedin.com/in/stuti-sanghvi)\
-[💌 Email](mailto:stutisanghvi7@gmail.in)\
-[🌐 Portfolio (via Notion)](https://www.notion.so/Stuti-Sanghvi-Content-Strategist-Technical-Writer-29cf34655bbd809589e7d360b8e98ed1)\
-[🔗 GitHub](https://github.com/Stuti-ContentStrategist)
+[**💼 LinkedIn**](https://linkedin.com/in/stuti-sanghvi)\
+[**💌 Email**](mailto:stutisanghvi7@gmail.in)\
+[**🌐 Portfolio (via Notion)**](https://www.notion.so/Stuti-Sanghvi-Content-Strategist-Technical-Writer-29cf34655bbd809589e7d360b8e98ed1)\
+[**🔗 GitHub**](https://github.com/Stuti-ContentStrategist)
 
-Learn more → [About the Author](https://app.gitbook.com/o/YBUOQjCTo1Lf6omt9Fkt/s/SujDvXvEbVunQ9a2s6Us/)
+Learn more → [**About the Author**](https://app.gitbook.com/o/YBUOQjCTo1Lf6omt9Fkt/s/SujDvXvEbVunQ9a2s6Us/)
