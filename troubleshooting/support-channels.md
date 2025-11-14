@@ -22,9 +22,7 @@ CyberShield provides multiple support channels to help users resolve technical o
 
 ***
 
-#### 💡 Tip
-
-Always include your **SDK version**, **system logs**, and **error code** when contacting support. This speeds up issue resolution.
+💡 **Tip:** Always include your **SDK version**, **system logs**, and **error code** when contacting support. This speeds up issue resolution.
 
 ***
 
