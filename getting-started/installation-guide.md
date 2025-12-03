@@ -11,7 +11,7 @@ This guide walks you through installing the **CyberShield SDKs and agents**, con
 
 ***
 
-### 🧩 Step 1: Prepare Your Environment
+### Step 1: Prepare Your Environment
 
 Before proceeding, confirm that your system meets the System Requirements and that you have:
 
@@ -24,17 +24,16 @@ Before proceeding, confirm that your system meets the System Requirements and th
 
 ***
 
-### 🐍 Step 2: Install the CyberShield SDK
+### Step 2: Install the CyberShield SDK
 
 #### **Python SDK**
 
 Install using `pip`:
 
-```bash
-bash
-
+<pre class="language-bash"><code class="lang-bash"><strong>bash
+</strong>
 pip install cybershield-sdk
-```
+</code></pre>
 
 Initialize the SDK in your project:
 
@@ -69,8 +68,8 @@ yarn add cybershield-sdk
 Initialize the SDK:
 
 <pre class="language-javascript"><code class="lang-javascript"><strong>javascript
-</strong><strong>
-</strong><strong>const { CyberShieldSDK } = require("cybershield-sdk");
+</strong>
+<strong>const { CyberShieldSDK } = require("cybershield-sdk");
 </strong>
 const sdk = new CyberShieldSDK({
   apiKey: "your_api_key",
@@ -82,7 +81,7 @@ sdk.connect().then(() => {
 });
 </code></pre>
 
-> 🔐 **Security Tip:** Never hardcode credentials directly into your scripts. Use environment variables or secret management tools.
+> **Security Tip:** Never hardcode credentials directly into your scripts. Use environment variables or secret management tools.
 
 ***
 
@@ -98,8 +97,8 @@ If you plan to use real-time network monitoring or endpoint protection features,
 4.  Verify the agent service is running:
 
     <pre class="language-powershell"><code class="lang-powershell"><strong>powershell
-    </strong><strong>
-    </strong><strong>Get-Service CyberShieldAgent
+    </strong>
+    <strong>Get-Service CyberShieldAgent
     </strong></code></pre>
 
 #### **Linux**
@@ -140,8 +139,8 @@ python -m cybershield status
 **Node.js:**
 
 <pre class="language-bash"><code class="lang-bash"><strong>bash
-</strong><strong>
-</strong><strong>npx cybershield status
+</strong>
+<strong>npx cybershield status
 </strong></code></pre>
 
 You should see:

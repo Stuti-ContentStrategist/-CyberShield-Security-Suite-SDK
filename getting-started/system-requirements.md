@@ -11,7 +11,7 @@ Before installing **CyberShield Security Suite**, ensure your environment meets 
 
 ***
 
-### 💻 Supported Platforms
+### Supported Platforms
 
 | Component          | Supported OS / Environment                            | Notes                                                            |
 | ------------------ | ----------------------------------------------------- | ---------------------------------------------------------------- |
@@ -21,11 +21,9 @@ Before installing **CyberShield Security Suite**, ensure your environment meets 
 | **API Gateway**    | HTTPS endpoints (TLS 1.2 or later)                    | Legacy HTTP endpoints are deprecated                             |
 | **Cloud Services** | AWS, Azure, GCP                                       | Requires API access and outbound internet connectivity           |
 
-
-
 ***
 
-### 🧠 Hardware Requirements
+### Hardware Requirements
 
 | Component | Minimum           | Recommended                   |
 | --------- | ----------------- | ----------------------------- |
@@ -38,7 +36,7 @@ Before installing **CyberShield Security Suite**, ensure your environment meets 
 
 ***
 
-### 🔐 Software Dependencies
+### Software Dependencies
 
 | Requirement      | Version | Description                                        |
 | ---------------- | ------- | -------------------------------------------------- |
@@ -52,7 +50,7 @@ Before installing **CyberShield Security Suite**, ensure your environment meets 
 
 ***
 
-### 🔍 Environment Variables
+### Environment Variables
 
 Before installation, confirm the following environment variables are available in your system or CI/CD environment:
 
@@ -63,11 +61,11 @@ CYBERSHIELD_ENV=production
 CYBERSHIELD_LOG_LEVEL=info
 ```
 
-🧩 For step-by-step initialization, see [Installation Guide.](installation-guide.md)
+For step-by-step initialization, see [Installation Guide.](installation-guide.md)
 
 ***
 
-### ✅ Pre-installation Checklist
+### Pre-installation Checklist
 
 * [ ] Verify OS and SDK versions match supported configurations
 * [ ] Ensure outbound HTTPS connectivity to `api.cybershield.io`
@@ -75,4 +73,4 @@ CYBERSHIELD_LOG_LEVEL=info
 * [ ] Disable conflicting security software (if using local agents)
 * [ ] Review Release Notes → v5.0.0 for compatibility changes
 
-✅ Once these checks are complete, your environment is fully prepared for CyberShield installation and SDK initialization.
+Once these checks are complete, your environment is fully prepared for CyberShield installation and SDK initialization.
