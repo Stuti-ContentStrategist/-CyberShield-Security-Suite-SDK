@@ -11,7 +11,7 @@ The CyberShield Dashboard provides a centralized view of your organization’s s
 
 ***
 
-#### 🖥 Key Dashboard Sections
+### Key Dashboard Sections
 
 | Section            | Description                                                                  |
 | ------------------ | ---------------------------------------------------------------------------- |
@@ -20,12 +20,10 @@ The CyberShield Dashboard provides a centralized view of your organization’s s
 | **Analytics View** | Offers graphical trends for threat types, attack vectors, and user behavior. |
 | **System Logs**    | Provides searchable logs for detailed forensic analysis.                     |
 
-
-
 ***
 
 > **💡 Tip:** Use filters (by date, severity, or user) to isolate relevant incidents faster.
 >
 > **⚠️ Note:** Data retention for logs depends on your subscription tier. Free plans store logs for 30 days only.
 
-🎯 You’re now ready to navigate the CyberShield Dashboard with confidence — your command center for real-time protection and insights.
+You’re now ready to navigate the CyberShield Dashboard with confidence — your command center for real-time protection and insights.

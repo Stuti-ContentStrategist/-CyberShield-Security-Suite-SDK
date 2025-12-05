@@ -16,13 +16,9 @@ The table below lists common error codes, their causes, and recommended actions.
 | **500**    | Internal server error     | Contact CyberShield Support with log details.   |
 | **701**    | SDK configuration missing | Reinitialize SDK using `cybershield init`.      |
 
-
-
 ***
 
-#### ⚠️ Note
-
-You can enable verbose logging by setting `LOG_LEVEL=DEBUG` in your environment variables for deeper insights.
+> ⚠️ **Note:** You can enable verbose logging by setting `LOG_LEVEL=DEBUG` in your environment variables for deeper insights.
 
 ***
 

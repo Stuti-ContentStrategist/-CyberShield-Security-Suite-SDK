@@ -9,7 +9,7 @@ metaLinks:
 
 CyberShield SDK uses a modular configuration model. You can define parameters using **JSON**, **YAML**, or **environment variables**, depending on your workflow or CI/CD setup.
 
-### 🧱 Overview
+### Overview
 
 Configuration Examples demonstrate how to define and load CyberShield SDK settings for different environments. You’ll learn how to manage credentials, environment variables, and scanning parameters using YAML, JSON, or system variables.
 
@@ -28,11 +28,9 @@ Common configuration keys include:
 | `scan_interval` | Frequency (in minutes) for automated scans       | `30`             |
 | `enable_mfa`    | Enables multi-factor authentication              | `true`           |
 
-
-
 ***
 
-### 🧩 Example 1 — YAML Configuration (Recommended)
+### Example 1 — YAML Configuration (Recommended)
 
 Use a YAML file for human-readable configuration and easy version control.
 
@@ -69,7 +67,7 @@ sdk.connect()
 
 ***
 
-### 🧩 Example 2 — Environment Variable Configuration
+### Example 2 — Environment Variable Configuration
 
 For CI/CD or container deployments, define configuration parameters as environment variables.
 
@@ -114,7 +112,7 @@ sdk.connect()
 
 ***
 
-### 🧩 Example 3 — JSON Configuration
+### Example 3 — JSON Configuration
 
 You can also define configurations in JSON for compatibility with external systems.
 
@@ -148,7 +146,7 @@ sdk.connect().then(() => console.log("✅ SDK connected"));
 
 ***
 
-### 🔒 Security Considerations
+### Security Considerations
 
 * Never commit API keys or secrets to Git or shared repositories.
 * Always use **environment variables** for CI/CD or production.
@@ -157,4 +155,4 @@ sdk.connect().then(() => console.log("✅ SDK connected"));
 
 > ⚠️ **Warning:** Storing credentials in plain text can expose your system to credential theft or privilege escalation.
 
-⚙️ Your SDK configuration is complete — your setup can now run optimized scans and secure data exchanges seamlessly.
+Your SDK configuration is complete — your setup can now run optimized scans and secure data exchanges seamlessly.

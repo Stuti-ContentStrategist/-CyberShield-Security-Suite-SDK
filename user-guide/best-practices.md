@@ -10,7 +10,7 @@ Following best practices ensures that your CyberShield deployment remains secure
 
 ***
 
-#### 🛡 Security Hygiene
+### Security Hygiene
 
 * Rotate API keys every 90 days.
 * Enforce Multi-Factor Authentication (MFA) for all users.
@@ -18,7 +18,7 @@ Following best practices ensures that your CyberShield deployment remains secure
 
 ***
 
-#### ⚙️ System Optimization
+### &#x20;System Optimization
 
 * Schedule automated scans during off-peak hours.
 * Keep SDK and agents updated to the latest version.
@@ -26,10 +26,10 @@ Following best practices ensures that your CyberShield deployment remains secure
 
 ***
 
-#### 💬 Team Collaboration
+### Team Collaboration
 
 * Assign alert categories to specific team roles.
 * Conduct monthly review sessions to analyze threat patterns.
 * Document lessons learned after major incidents.
 
-💡 With these best practices, your CyberShield setup is now optimized for both performance and proactive defense.
+With these best practices, your CyberShield setup is now optimized for both performance and proactive defense.

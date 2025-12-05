@@ -11,7 +11,7 @@ CyberShield provides multiple support channels to help users resolve technical o
 
 ***
 
-#### 📨 Contact Methods
+#### Contact Methods
 
 | Channel                  | Description                                                 |
 | ------------------------ | ----------------------------------------------------------- |
@@ -22,13 +22,13 @@ CyberShield provides multiple support channels to help users resolve technical o
 
 ***
 
-💡 **Tip:** Always include your **SDK version**, **system logs**, and **error code** when contacting support. This speeds up issue resolution.
+> 💡 **Tip:** Always include your **SDK version**, **system logs**, and **error code** when contacting support. This speeds up issue resolution.
 
 ***
 
-#### 🧭 **End of Guide!**
+#### **End of Guide!**
 
-🎉 Excellent work — you’ve completed the **CyberShield Security Suite SDK Guide**!
+Excellent work — you’ve completed the **CyberShield Security Suite SDK Guide**!
 
 You now know how to:
 
@@ -37,4 +37,4 @@ You now know how to:
 * Implement advanced automation and workflow examples
 * Access developer tools, troubleshooting steps, and support channels
 
-📚 For full API endpoints, request/response models, and advanced integration details, visit the [**CyberShield API Reference**](https://app.gitbook.com/o/YBUOQjCTo1Lf6omt9Fkt/s/DqlTNL6eyzhuJxfQU9Cp/).
+For full API endpoints, request/response models, and advanced integration details, visit the [**CyberShield API Reference**](https://app.gitbook.com/o/YBUOQjCTo1Lf6omt9Fkt/s/DqlTNL6eyzhuJxfQU9Cp/).

@@ -11,7 +11,7 @@ This section explains how to identify, handle, and log errors that occur while u
 
 ***
 
-### 🧱 Overview
+### Overview
 
 CyberShield SDK provides structured error responses and exceptions across all supported languages.\
 Each error includes:
@@ -24,7 +24,7 @@ By implementing consistent error handling, you can gracefully recover from tempo
 
 ***
 
-### 🧩 1. Common Error Types
+### 1. Common Error Types
 
 | Error Type              | Description                            | Example Cause                | Recommended Action                  |
 | ----------------------- | -------------------------------------- | ---------------------------- | ----------------------------------- |
@@ -37,13 +37,13 @@ By implementing consistent error handling, you can gracefully recover from tempo
 
 ***
 
-### 🧩 2. Handling Errors in Code
+### 2. Handling Errors in Code
 
 **Python Example**
 
 <pre class="language-python"><code class="lang-python"><strong>python
-</strong><strong>
-</strong><strong>from cybershield import CyberShieldSDK, AuthenticationError, RateLimitError
+</strong>
+<strong>from cybershield import CyberShieldSDK, AuthenticationError, RateLimitError
 </strong>
 sdk = CyberShieldSDK(api_key="your_key", api_secret="your_secret")
 
@@ -63,8 +63,8 @@ except Exception as e:
 **Node.js Example**
 
 <pre class="language-javascript"><code class="lang-javascript"><strong>javascript
-</strong><strong>
-</strong><strong>import { CyberShieldSDK, RateLimitError } from "cybershield-sdk";
+</strong>
+<strong>import { CyberShieldSDK, RateLimitError } from "cybershield-sdk";
 </strong>
 const sdk = new CyberShieldSDK({ apiKey: process.env.CS_KEY, apiSecret: process.env.CS_SECRET });
 
@@ -85,7 +85,7 @@ try {
 
 ***
 
-### 🧩 3. Error Logging
+### 3. Error Logging
 
 You can configure the SDK to log all warnings, errors, and failed requests.\
 Logs help trace security incidents or connectivity failures.
@@ -93,8 +93,8 @@ Logs help trace security incidents or connectivity failures.
 **Python Example**
 
 <pre class="language-python"><code class="lang-python"><strong>python
-</strong><strong>
-</strong><strong>sdk.configure_logging(level="error", logfile="cybershield_errors.log")
+</strong>
+<strong>sdk.configure_logging(level="error", logfile="cybershield_errors.log")
 </strong></code></pre>
 
 **Node.js Example**
@@ -105,11 +105,11 @@ javascript
 sdk.configureLogging({ level: "error", path: "./logs/cybershield.log" }
 ```
 
-> 📘 **Recommendation:** Use structured logging (e.g., JSON format) to integrate with external log management systems such as Splunk, Datadog, or ELK Stack.
+> **Recommendation:** Use structured logging (e.g., JSON format) to integrate with external log management systems such as Splunk, Datadog, or ELK Stack.
 
 ***
 
-### 🧠 4. Retrying Failed Operations
+### 4. Retrying Failed Operations
 
 Transient errors such as timeouts or rate limits can be recovered automatically using **retry logic**.
 
@@ -137,7 +137,7 @@ for attempt in range(3):
 
 ***
 
-### 🧩 5. Debug Mode
+### 5. Debug Mode
 
 Enable debug logs for deeper inspection during development or troubleshooting:
 
@@ -158,7 +158,7 @@ This provides detailed traces for:
 
 ***
 
-### 🧰 6. Sample Error Response
+### 6. Sample Error Response
 
 Example of a structured error JSON returned by the CyberShield API:
 
@@ -175,4 +175,4 @@ json
 
 > 💡 **Tip:** Store these logs for auditing and include timestamps to track recurring failure patterns.
 
-🧠 You’re now equipped to identify, log, and resolve SDK-related errors efficiently.
+You’re now equipped to identify, log, and resolve SDK-related errors efficiently.

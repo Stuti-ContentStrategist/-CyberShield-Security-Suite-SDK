@@ -11,7 +11,7 @@ Policies and Alerts allow administrators to define how CyberShield detects, clas
 
 ***
 
-#### 🧰 Creating Policies
+### Creating Policies
 
 1. Navigate to **Dashboard → Policies**.
 2. Click **Create New Policy**.
@@ -21,10 +21,10 @@ Policies and Alerts allow administrators to define how CyberShield detects, clas
 
 ***
 
-#### 🚨 Managing Alerts
+### Managing Alerts
 
 * Alerts appear in real-time on the **Alerts Feed**.
 * Each alert contains metadata such as source IP, event type, and resolution status.
 * You can acknowledge, assign, or mute alerts from the dashboard directly.
 
-🔔 You’ve learned how to fine-tune your alert settings and security policies — helping you stay focused on what truly matters.
+You’ve learned how to fine-tune your alert settings and security policies — helping you stay focused on what truly matters.

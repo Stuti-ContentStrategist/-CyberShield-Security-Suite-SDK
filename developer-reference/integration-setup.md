@@ -11,7 +11,7 @@ Once installed, the CyberShield SDK allows your systems to communicate securely 
 
 ***
 
-### 🧱 Overview
+### Overview
 
 This Integration Setup guides developers through connecting the CyberShield SDK to existing applications and services. It covers how to authenticate, verify connectivity, and embed the SDK into automation workflows such as CI/CD pipelines or monitoring systems.
 
@@ -19,7 +19,7 @@ By completing this setup, your systems can securely communicate with CyberShield
 
 ***
 
-### ⚙️ Step 1 — Verify Prerequisites
+### Step 1 — Verify Prerequisites
 
 Before integration, confirm you have:
 
@@ -37,7 +37,7 @@ Before integration, confirm you have:
 
 ***
 
-### 🔐 Step 2 — Initialize the SDK
+### Step 2 — Initialize the SDK
 
 Initialize the SDK using your credentials and environment configuration.\
 You can use **environment variables**, **YAML**, or **JSON config files** depending on your setup.
@@ -58,11 +58,11 @@ sdk.connect()
 print("✅ CyberShield SDK connected successfully!")
 ```
 
-> 🔒 **Security Reminder:** Avoid hardcoding credentials — store them in environment variables or secret managers.
+> **Security Reminder:** Avoid hardcoding credentials — store them in environment variables or secret managers.
 
 ***
 
-### 🧠 Step 3 — Validate Your Integration
+### Step 3 — Validate Your Integration
 
 Test the connection to ensure the SDK is authenticated and ready to use.
 
@@ -91,16 +91,16 @@ If this fails:
 
 ***
 
-### 🧰 Step 4 — Embed into Your Workflow
+### Step 4 — Embed into Your Workflow
 
 You can integrate CyberShield SDK into:
 
-| Use Case                | Description                                            |
-| ----------------------- | ------------------------------------------------------ |
-| 🧠 Application Security | Trigger vulnerability scans during deployment.         |
-| ⚙️ CI/CD Pipelines      | Automate security checks in GitHub Actions or Jenkins. |
-| 📊 Analytics            | Fetch threat reports and logs for dashboards.          |
-| 🧾 Compliance           | Include automated audit data in your security reports. |
+| Use Case             | Description                                            |
+| -------------------- | ------------------------------------------------------ |
+| Application Security | Trigger vulnerability scans during deployment.         |
+| CI/CD Pipelines      | Automate security checks in GitHub Actions or Jenkins. |
+| Analytics            | Fetch threat reports and logs for dashboards.          |
+| Compliance           | Include automated audit data in your security reports. |
 
 **Example — GitHub Actions Workflow**
 
@@ -121,4 +121,4 @@ jobs:
 
 ***
 
-🎯 Your integration is now complete — CyberShield SDK is securely connected and ready to power automated security workflows across your environment.
+Your integration is now complete — CyberShield SDK is securely connected and ready to power automated security workflows across your environment.

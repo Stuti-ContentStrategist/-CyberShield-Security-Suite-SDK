@@ -8,7 +8,7 @@ metaLinks: {}
 
 The **CyberShield Security Suite SDK** provides enterprise-grade detection, response, and API security for both cloud and on-prem environments.
 
-Designed for security engineers and platform developers, it unifies AI-driven threat detection, automated incident response, and secure data exchange in one integration framework.
+It is designed for security engineers, platform developers, and system integrators who need a reliable, modular, and scalable security framework.
 
 ***
 

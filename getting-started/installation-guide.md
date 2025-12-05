@@ -30,7 +30,7 @@ Before proceeding, confirm that your system meets the System Requirements and th
 
 Install using `pip`:
 
-<pre class="language-bash"><code class="lang-bash"><strong>bash
+<pre class="language-shellscript"><code class="lang-shellscript"><strong>bash
 </strong>
 pip install cybershield-sdk
 </code></pre>
@@ -179,9 +179,9 @@ echo $CYBERSHIELD_API_KEY
 
 ***
 
-### ✅ Installation Complete
+### Installation Complete
 
-🎉 **Congratulations!**\
+**Congratulations!**\
 You’ve successfully installed and configured **CyberShield Security Suite** on your system.
 
 > 💡 **Tip**_:_ Bookmark this page or save your configuration details for quick reference later.

@@ -70,8 +70,6 @@ Find quick answers to common questions about setup, configuration, and usage. Th
 
 ***
 
-#### 💡 Tip
+> 💡 **Tip**: If errors persist, check the `cybershield.log` file in your installation directory.
 
-If errors persist, check the `cybershield.log` file in your installation directory.
-
-💬 You’ve explored the most common questions users ask — and their solutions. For deeper insights, refer to our Knowledge Base.
+You’ve explored the most common questions users ask — and their solutions. For deeper insights, refer to our [Knowledge Base](https://app.gitbook.com/o/SxHNjM53o1ERQTNaTYLB/s/4DrWEAeXqgE1w4gMk9aV/).

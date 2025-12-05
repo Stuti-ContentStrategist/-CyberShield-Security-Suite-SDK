@@ -11,7 +11,7 @@ This section explains how authentication works in the **CyberShield SDK**, inclu
 
 ***
 
-### 🧱 Overview
+### Overview
 
 The CyberShield SDK uses a **two-layer authentication system** that ensures every request to CyberShield’s services is both verified and encrypted.
 
@@ -22,7 +22,7 @@ This layered design protects against credential misuse and supports enterprise-g
 
 ***
 
-### 🔑 1. API Key-Based Authentication
+### 1. API Key-Based Authentication
 
 When you initialize the SDK, your API key and secret authenticate your application to the CyberShield backend.
 
@@ -63,7 +63,7 @@ console.log("✅ SDK authenticated successfully!");
 
 ***
 
-### 🧩 2. Token-Based Authentication (Session Tokens)
+### 2. Token-Based Authentication (Session Tokens)
 
 After the SDK authenticates your API key, it generates a **temporary access token** that expires after a set duration (default: 60 minutes).
 
@@ -88,7 +88,7 @@ sdk.refresh_token()
 
 ***
 
-### 🧠 3. Multi-Factor Authentication (MFA)
+### 3. Multi-Factor Authentication (MFA)
 
 CyberShield supports **biometric** and **token-based MFA** to protect high-privilege actions, such as configuration updates or API key rotation.
 
@@ -108,11 +108,11 @@ sdk.enable_mfa(method="totp")
 | `push`      | Mobile push notification approval                          |
 | `biometric` | Fingerprint or facial recognition (supported systems only) |
 
-> 🔒 **Best Practice:** Require MFA for all admin users or API clients managing sensitive configurations.
+> **Best Practice:** Require MFA for all admin users or API clients managing sensitive configurations.
 
 ***
 
-### ⚙️ 4. Handling Authentication Errors
+### 4. Handling Authentication Errors
 
 If authentication fails, the SDK returns clear error codes to help diagnose the issue quickly.
 
@@ -123,13 +123,11 @@ If authentication fails, the SDK returns clear error codes to help diagnose the 
 | `408_TOKEN_EXPIRED` | Access token expired      | Use `sdk.refresh_token()` to renew                |
 | `429_RATE_LIMITED`  | Too many requests         | Wait and retry after cooldown                     |
 
-
-
 > 💡 **Tip:** Handle these gracefully in your integration scripts or pipelines using retry logic.
 
 ***
 
-### 🧰 5. Rotating Credentials
+### 5. Rotating Credentials
 
 To maintain security hygiene:
 
@@ -146,4 +144,4 @@ sdk.revoke_api_key("old_key_id")
 sdk.generate_api_key(label="staging_env")
 ```
 
-🔒 Authentication configured successfully — your SDK can now connect securely using verified API credentials.
+Authentication configured successfully — your SDK can now connect securely using verified API credentials.

@@ -11,7 +11,7 @@ Understanding the folder structure helps you navigate, configure, and customize 
 
 ***
 
-### 🧱 Default Project Layout
+### Default Project Layout
 
 When you install and initialize the CyberShield SDK, your project directory resembles the following structure:
 
@@ -43,7 +43,7 @@ cybershield-project/
 
 ***
 
-### 📘 Folder Descriptions
+### Folder Descriptions
 
 | Folder / File                       | Purpose                                                                                                   |
 | ----------------------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -62,7 +62,7 @@ cybershield-project/
 
 ***
 
-### 🧩 Configuration Files
+### Configuration Files
 
 CyberShield uses YAML and JSON-based configuration files for flexible customization.
 
@@ -79,11 +79,11 @@ json
 }
 ```
 
-⚙️ These settings control how the SDK interacts with the CyberShield API and how frequently it performs scans or synchronizations.
+These settings control how the SDK interacts with the CyberShield API and how frequently it performs scans or synchronizations.
 
 ***
 
-### 🪶 Logging and Reports
+### Logging and Reports
 
 All runtime and error logs are automatically written to the `logs/` directory.\
 Logs include:
@@ -96,7 +96,7 @@ Logs include:
 
 ***
 
-### 🚀 Testing Your Setup
+### Testing Your Setup
 
 Use the included test scripts to confirm connectivity and scanning functionality:
 
